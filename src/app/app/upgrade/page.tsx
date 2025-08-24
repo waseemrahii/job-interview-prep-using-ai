@@ -16,7 +16,7 @@ export default function UpgradePage() {
           <AlertTitle>Plan Limit Reached</AlertTitle>
           <AlertDescription>
             You have reached the limit of your current plan. Please upgrade to
-            continue using all features.
+            continue using all features thank you.
           </AlertDescription>
         </Alert>
 
