@@ -80,24 +80,23 @@ npm run db:setup
 
 # Start development server
 npm run dev
+  The app will be available at 👉 http://localhost:3000
 
 
-The app will be available at 👉 http://localhost:3000
+
+---
 
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="/src/public/app.png" alt="App Screenshot" width="800"/>
+  <img src="/public/app.png" alt="App Screenshot" width="800"/>
 </p>
 
 
 ---
 
 ## 🤝 Contributing
-
-
-🤝 Contributing
 
 Contributions, bug reports, and feature requests are welcome!
 Open a PR or an Issue anytime. 🚀
