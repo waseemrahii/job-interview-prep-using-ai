@@ -51,31 +51,23 @@ Create a `.env.local` file in your project root:
 
 ```env
 # Database Configuration (Neon)
-DATABASE_URL=postgresql://neondb_owner:password@ep-mute-meadow-aderis1u-pooler.c-2.us-east-1.aws.neon.tech:5432/Own_projects?sslmode=require
-
-DB_USER=neondb_owner
-DB_PASSWORD=npg_6UNzhFZ3RaEi
-DB_HOST=ep-mute-meadow-aderis1u-pooler.c-2.us-east-1.aws.neon.tech
-DB_PORT=5432
-DB_NAME=Own_projects
+DATABASE_URL=postgresql://<YOUR_DB_USER>:<YOUR_DB_PASSWORD>@<YOUR_DB_HOST>:<YOUR_DB_PORT>/<YOUR_DB_NAME>?sslmode=require
 
 # Security & Rate Limiting
-ARCJET_KEY=ajkey_01k3et2mh7fk08g5d2573tpbr3
+ARCJET_KEY=<YOUR_ARCJET_KEY>
 
 # Authentication (Clerk)
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/app
 NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/app
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_aGVhbHRoeS11cmNoaW4tNzcuY2xlcmsuYWNjb3VudHMuZGV2JA
-CLERK_SECRET_KEY=sk_test_PTSQ4I9cd6z1BpmzT5OzcPWFQCFjoVocyyzM6lKWvY
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<YOUR_CLERK_PUBLISHABLE_KEY>
+CLERK_SECRET_KEY=<YOUR_CLERK_SECRET_KEY>
 
 # AI Services
-HUME_API_KEY=o0IAtCg30xkfYB9ZGoTObvf78RF1LwEYM95NGqGAPAmA3qdI
-HUME_SECRET_KEY=ryrNALXtgHOBhUWHzG1n854iMYVLH5F33d4ht5KORNGAAGVNNrt0bGbNAiWgASLs
-NEXT_PUBLIC_HUME_CONFIG_ID=d4b92823-ee66-4c79-80e0-da3e107af9e9
-GEMINI_API_KEY=AIzaSyBOTXMK8NRiaomPpuBuwPXaxpPMy1CcPMk
-
-
+HUME_API_KEY=<YOUR_HUME_KEY>
+HUME_SECRET_KEY=<YOUR_HUME_SECRET_KEY>
+NEXT_PUBLIC_HUME_CONFIG_ID=<YOUR_HUME_CONFIG_ID>
+GEMINI_API_KEY=<YOUR_GEMINI_KEY
 
 # Clone the repo
 git clone https://github.com/your-username/ai-interview-prep.git
