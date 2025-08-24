@@ -11,6 +11,16 @@
 
 ---
 
+
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="/public/app.png" alt="App Screenshot" width="800"/>
+</p>
+
+
+---
 ## 🚀 About the Project
 
 **AI Interview Prep** is your **personal AI mentor, guide, and teacher** for cracking interviews.  
@@ -84,17 +94,7 @@ npm run dev
 
 
 
----
 
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="/public/app.png" alt="App Screenshot" width="800"/>
-</p>
-
-
----
 
 ## 🤝 Contributing
 
